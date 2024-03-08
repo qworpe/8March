@@ -1,0 +1,29 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: var(--page-bg);
+	color: var(--text-color);
+    font-family: var(--font-main);
+}
+
+h2 {
+	font-family: var(--font-family);
+	font-weight: 800;
+	font-size: 40px;
+	color: #ff96ee;
+}
+
+
+
+@media screen and (max-width: 690px) {
+	h2 {
+		font-size: 20px;
+	}
+}
+
+
+.none {
+	display: none;
+}

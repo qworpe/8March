@@ -1,0 +1,40 @@
+.header {
+	background-color: #AA50B9;
+	background-image: linear-gradient(180deg, #AA50B9 0%, #331239 100%);
+	max-height: 1250px;
+}
+
+.line-history-wrapper {
+		max-width: 1200px;
+		margin: 0 auto;
+		padding-bottom: 50px;
+}
+
+@media screen and (max-width: 1199px) {
+	.line-history-wrapper {
+		max-width: 800px;
+	}
+}
+
+
+@media screen and (max-width: 690px) {
+	.line-history-wrapper {
+		display: none;
+	}
+
+	.tall-border {
+		width: 500px;
+	}
+}
+
+.line-history {
+	display: flex;
+	gap: 45px;
+	align-items: center;
+}
+
+.history-desc {
+	font-weight: 300;
+	font-size: 20px;
+	color: #fff;
+}
